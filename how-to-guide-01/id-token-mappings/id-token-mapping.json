@@ -1,0 +1,32 @@
+[
+    {
+      "sourceField": "$.type",
+      "idTokenClaim": "$.custom[0].type",
+      "inputDescriptorId": "email_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.email",
+      "idTokenClaim": "$.email",
+      "inputDescriptorId": "email_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.givenName",
+      "idTokenClaim": "$.given_name",
+      "inputDescriptorId": "givenname_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.familyName",
+      "idTokenClaim": "$.family_name",
+      "inputDescriptorId": "familyName_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.picture",
+      "idTokenClaim": "$.picture",
+      "inputDescriptorId": "picture_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.country",
+      "idTokenClaim": "$.address.country",
+      "inputDescriptorId": "country_vc"
+    }
+  ]
